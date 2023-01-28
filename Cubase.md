@@ -1,6 +1,5 @@
 ## General
 
-|---|----------------------|
 | 0 | Mute/Unmute Objects  |
 | 1 | Selection Tool       |
 | 2 | Pencil (draw) Tool   |
@@ -15,7 +14,3 @@
 | Return | Toggle Editors in Lower Zone (piano roll, sample) |
 | c      | Open MixConsole in Lower Zone                     |
 | d      | Open Drum Editor in Lower Zone                    |
-
-|--------------|--------------|
-| Content Cell | Content Cell |
-| Content Cell | Content Cell |
