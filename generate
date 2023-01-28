@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+File.open("cubase", "r") do |f|
+  f.each_line do |item|
+    line = item.strip
+    if line.start_with?("#") || line.empty? || line.start_with?(">")
+      puts line
+    else
+      a = line[0...13].strip
+      b = line[13..].strip
+
+      puts "| #{a} | #{b} |"
+    end
+  end
+end

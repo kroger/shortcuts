@@ -125,7 +125,8 @@ M-Click      Set playhead to position (click anywhere)
 z            Toggle Enlarge Selected Track
 S-f          Zoom Full
 C-arrow      Zoom Horizontally, Vertically (all tracks)
-H, G         Zoom Horizontally, Vertically
+H            Zoom Horizontally
+G            Zoom Vertically
 M-arrow      Zoom Vertically Selected Track
 M-1          Zoom 1 row
 M-2          Zoom 2 rows
@@ -156,4 +157,4 @@ C-S-s        Mixer: Toggle Sends
 
 ## System Settings Shortcuts
 
-- Remove shortcut from "Hide Others" (I'm using F1)
+> Remove shortcut from "Hide Others" (I'm using F1)
