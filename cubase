@@ -1,12 +1,11 @@
-https://forums.steinberg.net/t/what-s-the-best-timesaver-you-ve-ever-discovered/690408
 
--            Listen
 0            Mute/Unmute Objects
 1            Selection Tool
 2            Pencil (draw) Tool
 3            Erase Tool
 4            Split Tool
 5            Range Selection Tool
+-            Listen
 
 b            Toggle Lower Zone
 l            Toggle Left Zone
@@ -29,7 +28,6 @@ C-S-b        Search Media Bay
 C-i          Edit Instrument
 C-u          Edit Channel Settings
 
-C-h          Hide Selected Tracks
 M-f          Search Tracks
 M-S-a        Select No Event
 
@@ -39,10 +37,12 @@ f            Toggle Selected Folders
 A-M-f        Toggle All Visible Folders
 
 a            Show Automation on Selected Track
-S-a          Show Used automation on Selected Track
-S-h          Hide Automation on Selected Track
+C-a          Show Used automation on Selected Track
+C-h          Hide Automation on Selected Track
+A-d          Delete Automation on Selected Track or Selected Automation Lane
 A-M-a        Show All Used Automation (All Tracks)
 A-M-h        Hide All Automation (All Tracks)
+A-M-c        Color All Automation Tracks
 
 C-d          Duplicate Tracks
 C-S-d        Duplicate Tracks without Data
@@ -52,8 +52,9 @@ v            Add Audio Track
 C-t          Add Track Using Preset
 A-t          Add Track Dialog
 
-A-M-c        Select Event Color
-Esc          Close Color Window (Keyboard Maestro)
+C-M-c        Select Event Color
+A-M-c        Color All Automation Tracks
+`            Close Color Window (Keyboard Maestro)
 
 ## Inspector
 
@@ -105,8 +106,9 @@ A-M-3        Toggle Triplet Quantize
 
 ## Markers & Cursor
 
-M-l          Cycle (loop)
 p            Set locators to selection
+M-l          Cycle (loop)
+A-M-l        Fill Loop
 S-p          Previous Marker
 S-n          Next Marker
 C-S-Space    Play until next marker
@@ -118,9 +120,11 @@ M-Click      Set playhead to position (click anywhere)
 
 ## Zoom
 
+z            Toggle Enlarge Selected Track
 S-f          Zoom Full
-C-arrow      Zoom Horizontally, Vertically
+C-arrow      Zoom Horizontally, Vertically (all tracks)
 H, G         Zoom Horizontally, Vertically
+M-arrow      Zoom Vertically Selected Track
 M-1          Zoom 1 row
 M-2          Zoom 2 rows
 M-3          Zoom 3 rows
