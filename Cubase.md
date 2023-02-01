@@ -75,6 +75,7 @@
 
 ## Events
 
+| Y | Adjust Fades to Range |
 | M-d | Duplicate |
 | M-r | Repeat x times (shared copy) |
 | M-e | Split at Cursor |
@@ -118,7 +119,7 @@
 | M-Click | Set playhead to position (click anywhere) |
 | , | Move cursor prev |
 | . | Move cursor next |
-| ‘ | Locate cursor start |
+| ‘ | Move cursor to start of selection |
 
 ## Zoom
 
