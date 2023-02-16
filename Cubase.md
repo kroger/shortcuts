@@ -144,6 +144,7 @@
 
 ## Control Room
 
+| x | Reset meters |
 | C-m | CR: Stereo/mono |
 | C-n | CR: Next Source (switch Reference Track and Master Bus) |
 | M-m | Show Meter (Keyboard Maestro) |
