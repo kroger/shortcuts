@@ -103,9 +103,12 @@ A-M-8        Insert Length 1/1
 
 ## Grid Length
 
+j            Snap Grid On/Off
 A-M-1        Prev Quantize
 A-M-2        Next  Quantize
 A-M-3        Toggle Triplet Quantize
+A-M-g        Next Grid Type (it cycles, so don't need prev)
+
 
 ## Markers & Cursor
 
