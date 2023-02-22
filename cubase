@@ -95,6 +95,8 @@ A-l          Toggle Lane
 C-l          Legato
 C-p          Toggle Pitch Visibility (scale mode)
 
+M-arrows     Nudge Left and Right
+
 A-M-4        Insert Length 1/4
 A-M-5        Insert Length 1/8
 A-M-6        Insert Length 1/16
